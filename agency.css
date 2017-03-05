@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+
+body {
+	font-family: Montserrat, sans-serif; 
+	text-size: 14px;
+}
+.site-header, .site-footer, main section {
+	border: 1px solid blue;
+	margin: 10px;
+
+} 
+
+.site-header {
+	background: url('images/cover1.jpg');
+	background-size: cover; 
+	min-height: 400px;
+}
+
+nav.top-navigation {
+	background:rgba(187 , 148 , 93, 0.9);
+	width: 80%;
+	margin: 0 auto;
+}
+
+.industries article, .partners li {
+	width: 300px;
+	border: 1px solid green;
+	margin: 10px;
+	display: inline-block;
+}
+
+.top-navigation ul {
+	text-align: center;
+	padding: 
+}
+.top-navigation li {
+	display: inline-block;
+	padding: 20px;
+
+}
+
+.top-navigation li a {
+	color: white;
+	text-decoration: none;
+
+}
+
+.top-navigation li a:hover {
+	color: black;
+}
+section.slider {
+	text-align: center;
+}
+
+section.slider h1 {
+	color: white;
+	text-transform: uppercase;
+	text-shadow:  0 0 10px black;
+	font-size: 3em;
+}
+
+section.slider p {
+	color: black ;
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+	background: rgba(150, 150, 150, 0.4);
+
+}
+
+.slider-button {
+	display: inline-block;
+	color: white;
+	background: #2f2f2f;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+section.slider .slider-button:hover {
+	background: #f5c686;
+	color: black;
+}
+
+section.industries {
+	text-align: center;
+}
+
+.benefits article {
+	width: 300px;
+	border: 1px solid green;
+	margin: 10px;
+	display: inline-block;
+}
